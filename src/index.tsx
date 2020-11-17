@@ -18,7 +18,6 @@ const WithProvider = (
     </React.StrictMode>
 );
 
-const millionaire = document.getElementById('millionaire');
-ReactDOM.render(WithProvider, millionaire);
+ReactDOM.render(WithProvider, document.getElementById('millionaire'));
 
 reportWebVitals();

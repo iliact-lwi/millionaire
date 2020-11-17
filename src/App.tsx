@@ -8,11 +8,11 @@ import GamePage from './pages/GamePage';
 
 const App: React.FunctionComponent = () => {
     return (
-        <Router>
+        <Router basename={ process.env.PUBLIC_URL }>
             <Switch>
-                    <Route component={ StartGamePage } path="/" exact />
-                    <Route component={ GameOverPage } path="/gameover" />
-                    <Route component={ GamePage } path="/game" />
+                <Route component={ StartGamePage } path="/" exact />
+                <Route component={ GameOverPage } path="/gameover" />
+                <Route component={ GamePage } path="/game" />
             </Switch>
         </Router>
     )
