@@ -1,0 +1,97 @@
+#millionaire {
+    .gameover {
+        .score {
+            @media(min-width: 1440px) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+    
+            .hand {
+                display: flex;
+                justify-content: center;
+                padding-top: 98px;
+                padding-bottom: 42.5px;
+
+                @media(min-width: 1024px) {
+                    padding-bottom: 60px;
+                }
+
+                @media(min-width: 1440px) {
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    display: block;
+                }
+            }
+
+            .hand-svg {
+                @media(min-width: 425px) {
+                    width: 300px;
+                    height: 200px;
+                }
+
+                @media(min-width: 1024px) {
+                    width: 340px;
+                    height: 250px;
+                }
+
+                @media(min-width: 1440px) {
+                    width: 624px;
+                    height: 367px;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                }
+            }
+
+            .title {
+                color: $black-100;
+                font-family: inherit;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 1;
+                text-align: center;
+                padding-bottom: 90px;
+
+                @media(min-width: 375px) {
+                    padding-bottom: 120px;
+                }
+
+                @media(min-width: 425px) {
+                    font-size: 34px;
+                }
+
+                @media(min-width: 1440px) {
+                    font-size: 56px;
+                    padding-right: 60px;
+                    text-align: start;
+                    padding-bottom: 60px;
+                }
+            }
+
+            .subtitle {
+                color: $black-40;
+                font-size: 18px;
+                text-align: center;
+                padding-bottom: 10px;
+
+                @media(min-width: 1024px) {
+                    font-size: 32px;
+                }
+
+                @media(min-width: 1440px) {
+                    text-align: start;
+                }
+            }
+
+            .button {
+                display: flex;
+                justify-content: center;
+
+                @media(min-width: 1440px) {
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+}

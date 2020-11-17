@@ -1,0 +1,8 @@
+@import './greeting/greeting.scss';
+
+#millionaire {
+    .startgame {
+        height: 100vh;
+        background: linear-gradient(to bottom right, $white-100 50%, $orange-5 50%);
+    }
+}

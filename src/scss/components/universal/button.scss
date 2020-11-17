@@ -1,0 +1,50 @@
+#millionaire {
+    .universal-button {
+        background-color: $orange-100;
+        color: $white-100;
+        font-weight: 600 !important;
+        line-height: 1;
+        border-radius: 8px;
+        width: 288px;
+        padding: 15.5px 0px;
+        outline: none;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+
+        @media(min-width: 375px) {
+            font-size: 15px;
+        }
+
+        @media(min-width: 425px) {
+            font-size: 16px;
+        }
+
+        @media(min-width: 768px) {
+            font-size: 18px;
+            width: 320px;
+            height: 50px;
+        }
+
+        @media(min-width: 1024px) {
+            font-size: 19px;
+            width: 360px;
+            height: 60px;
+        }
+
+        @media(min-width: 1440px) {
+            width: 440px;
+            border-radius: 12px;
+            width: 296px;
+            height: 64px;
+        }
+
+        &:hover {
+            background-color: $orange-80;
+        }
+
+        &:focus, &:active {
+            background-color: $orange-120;
+        }
+    }
+}

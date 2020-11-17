@@ -1,0 +1,248 @@
+{
+    "type": "game-config",
+    "game": "millionaire",
+    "ok": 200,
+    "data":
+        [
+            {
+                "question": "How many days in a leap year?", "answers":
+                    [
+                        {
+                            "answer": "367", "truth": false, "id": 1
+                        }, 
+                        {
+                            "answer": "365", "truth": false, "id": 2
+                        },
+                        {
+                            "answer": "366", "truth": true, "id": 3
+                        },
+                        {
+                            "answer": "368", "truth": false, "id": 4
+                        }
+                    ],
+                "prize": "$500",
+                "_correct": ["366"],
+                "id": 1
+            },
+            {
+                "question": "Radius of planet Earth?", "answers": 
+                    [
+                        {
+                            "answer": "5046 km", "truth": false, "id": 1
+                        },
+                        {
+                            "answer": "6371 km", "truth": true, "id": 2
+                        },
+                        {
+                            "answer": "7245 km", "truth": false, "id": 3
+                        },
+                        {
+                            "answer": "12478 km", "truth": false, "id": 4
+                        }
+                    ],
+                "prize": "$1,000",
+                "_correct": ["6371 km"],
+                "id": 2
+            },
+            {
+                "question": "How many cells are in the chessboard?", "answers":
+                    [
+                        {
+                            "answer": "28", "truth": false, "id": 1
+                        },
+                        {
+                            "answer": "32", "truth": false, "id": 2
+                        },
+                        {   
+                            "answer": "40", "truth": false, "id": 3
+                        },
+                        {
+                            "answer": "36", "truth": true, "id": 4
+                        }
+                    ],
+                "prize": "$2,000",
+                "_correct": ["36"],
+                "id": 3
+            },
+            {
+                "question": "How many liters per US gallon for liquid measurement?", "answers":
+                    [
+                        {
+                            "answer": "3,785", "truth": true, "id": 1
+                        },
+                        {
+                            "answer": "4,235", "truth": false, "id": 2
+                        },
+                        {   
+                            "answer": "4,546", "truth": false, "id": 3
+                        },
+                        {
+                            "answer": "3,651", "truth": false, "id": 4
+                        }
+                    ],
+                "prize": "$4,000",
+                "_correct": ["3,785"],
+                "id": 4    
+            },
+            {
+                "question": "For achievements in which direction you can not get a Nobel Prize?", "answers":
+                    [
+                        {
+                            "answer": "Literature", "truth": false, "id": 1
+                        },
+                        {
+                            "answer": "Mathematics", "truth": true, "id": 2
+                        },
+                        {   
+                            "answer": "Physics", "truth": false, "id": 3
+                        },
+                        {
+                            "answer": "Chemistry", "truth": false, "id": 4
+                        }
+                    ],
+                "prize": "$8,000",
+                "_correct": ["Mathematics"],
+                "id": 5
+            },
+            {
+                "question": "What was the name of Julius Caesar?", "answers":
+                    [
+                        {
+                            "answer": "Julius", "truth": false, "id": 1
+                        },
+                        {
+                            "answer": "Gaius", "truth": true, "id": 2
+                        },
+                        {   
+                            "answer": "Caesar", "truth": false, "id": 3
+                        },
+                        {
+                            "answer": "Wreathius", "truth": false, "id": 4
+                        }
+                    ],
+                "prize": "$16,000",
+                "_correct": ["Gaius"],
+                "id": 6
+            },
+            {
+                "question": "Who played the main role in the film 300 Spartans?", "answers":
+                    [
+                        {
+                            "answer": "Gerard Butler", "truth": true, "id": 1
+                        },
+                        {
+                            "answer": "Rodrigo Santoro", "truth": false, "id": 2
+                        },
+                        {   
+                            "answer": "Johnny Depp", "truth": false, "id": 3
+                        },
+                        {
+                            "answer": "Keanu Reeves", "truth": false, "id": 4
+                        }
+                    ],
+                "prize": "$32,000",
+                "_correct": ["Gerard Butler"],
+                "id": 7
+            },
+            {
+                "question": "Which way can you go when you are at the North Pole?", "answers":
+                    [
+                        {
+                            "answer": "East", "truth": false, "id": 1
+                        },
+                        {
+                            "answer": "West", "truth": false, "id": 2
+                        },
+                        {   
+                            "answer": "South", "truth": true, "id": 3
+                        },
+                        {
+                            "answer": "North", "truth": false, "id": 4
+                        }
+                    ],
+                "prize": "$64,000",
+                "_correct": ["South"],
+                "id": 8    
+            },
+            {
+                "question": "What is the temperature of absolute zero on the Kelvin scale?", "answers":
+                    [
+                        {
+                            "answer": "-100 degree", "truth": false, "id": 1
+                        },
+                        {
+                            "answer": "-345 degree", "truth": false, "id": 2
+                        },
+                        {   
+                            "answer": "-273 degree", "truth": false, "id": 3
+                        },
+                        {
+                            "answer": "0 degree", "truth": true, "id": 4
+                        }
+                    ],
+                "prize": "$125,000",
+                "_correct": ["0 degree"],
+                "id": 9     
+            },
+            {
+                "question": "Which country does the Genesis car brand belong to?", "answers":
+                    [
+                        {
+                            "answer": "USA", "truth": false, "id": 1
+                        },
+                        {
+                            "answer": "South Korea", "truth": true, "id": 2
+                        },
+                        {   
+                            "answer": "Germany", "truth": false, "id": 3
+                        },
+                        {
+                            "answer": "England", "truth": false, "id": 4
+                        }
+                    ],
+                "prize": "$250,000",
+                "_correct": ["South Korea"],
+                "id": 10       
+            },
+            {
+                "question": "In which country was Keanu Reeves born?", "answers":
+                    [
+                        {
+                            "answer": "Lebanon", "truth": true, "id": 1
+                        },
+                        {
+                            "answer": "Canada", "truth": false, "id": 2
+                        },
+                        {   
+                            "answer": "England", "truth": false, "id": 3
+                        },
+                        {
+                            "answer": "USA", "truth": false, "id": 4
+                        }
+                    ],
+                "prize": "$500,000",
+                "_correct": ["Lebanon"],
+                "id": 11    
+            },
+            {
+                "question": "What year was Sherlock Holmes born?", "answers":
+                    [
+                        {
+                            "answer": "1854", "truth": false, "id": 1
+                        },
+                        {
+                            "answer": "1869", "truth": false, "id": 2
+                        },
+                        {   
+                            "answer": "Never", "truth": true, "id": 3
+                        },
+                        {
+                            "answer": "1798", "truth": false, "id": 4
+                        }
+                    ],
+                "prize": "$1,000,000",
+                "_correct": ["Never"],
+                "id": 12    
+            }
+        ]        
+}

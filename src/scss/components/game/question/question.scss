@@ -1,0 +1,41 @@
+#millionaire {
+    .game {
+        .question {
+            text-align: center;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 18px;
+            color: $black-100;
+            padding-top: 100px;
+            height: 235px;
+            padding-bottom: 40px;
+
+            @media(min-width: 375px) {
+                font-size: 20px;
+            }
+
+            @media(min-width: 425px) {
+                font-size: 21px;
+                height: 250px;
+            }
+
+            @media(min-width: 768px) {
+                height: 200px;
+                padding-top: 80px;
+                padding-bottom: 30px;
+            }
+
+            @media(min-width: 1024px) {
+                font-size: 24px;
+                padding-top: 40px;
+            }
+
+            @media(min-width: 1440px) {
+                text-align: start;
+                font-size: 32px;
+                width: 624px;
+                padding: 120px 0px 370px 0px;
+            }
+        }
+    }
+}
